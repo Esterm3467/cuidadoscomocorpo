@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beleza & Bem-Estar Feminino</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff9f9;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713') no-repeat center center/cover;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffdde5;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #d6336c;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #b0214e;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      background-color: #f8b3c8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h2 { color: #d6336c; }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d6336c;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b0214e;
+    }
+    @media (max-width: 600px) {
+      header {
+        padding: 40px 10px;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beleza & Bem-Estar Feminino</h1>
+    <p>Cuide de você, por você!</p>
+  </header>
+  <nav>
+    <a href="#pele">Pele</a>
+    <a href="#cabelos">Cabelos</a>
+    <a href="#intima">Saúde Íntima</a>
+    <a href="#alimentacao">Alimentação</a>
+    <a href="#blog">Blog</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="pele">
+    <h2>Cuidados com a Pele</h2>
+    <img src="https://images.unsplash.com/photo-1588776814546-ec7e2237b2ea" alt="Cuidados com a pele">
+    <p>Conheça seu tipo de pele e monte sua rotina ideal com limpeza, hidratação e proteção solar.</p>
+  </section>
+
+  <section id="cabelos">
+    <h2>Cuidados com os Cabelos</h2>
+    <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36" alt="Cuidados com os cabelos">
+    <p>Dicas para identificar seu tipo de cabelo e fazer um cronograma capilar eficaz.</p>
+  </section>
+
+  <section id="intima">
+    <h2>Saúde Íntima</h2>
+    <img src="https://images.unsplash.com/photo-1627491665661-8d137d6d8fd7" alt="Saúde íntima">
+    <p>Higiene correta, cuidados durante o ciclo menstrual e importância dos exames regulares.</p>
+  </section>
+
+  <section id="alimentacao">
+    <h2>Alimentação e Corpo</h2>
+    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Alimentação saudável">
+    <p>Alimentos e hábitos saudáveis que favorecem a beleza e o bem-estar geral.</p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog / Dicas</h2>
+    <p>Artigos sobre autoestima, cuidados naturais, tendências e muito mais.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Beleza & Bem-Estar Feminino. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
